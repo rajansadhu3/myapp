@@ -1,0 +1,9 @@
+const heading = React.createElement(
+  "h1",
+  { id: "headingID" },
+  "Hello React text"
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading);
